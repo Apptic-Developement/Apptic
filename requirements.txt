@@ -1,2 +1,3 @@
 hikari[server]
 hikari-crescent
+tortoise-orm[asyncpg]

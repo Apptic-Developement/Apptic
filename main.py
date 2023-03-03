@@ -12,7 +12,5 @@ for fn in listdir("plugins"):
     if not fn.startswith("_"):
         client.plugins.load(f'plugins.{fn}.plugin')
 
-
-
 if __name__ == "__main__":
     bot.run()

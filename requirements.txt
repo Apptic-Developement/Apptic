@@ -1,6 +1,2 @@
-fastapi
-uvicorn
-python-dotenv
-PyNaCl
-httpx
-loguru
+hikari[server]
+hikari-crescent

@@ -11,3 +11,4 @@ class Embed(OriginalEmbed):
 
     def watermark(self) -> None:
         self.set_footer(text="Made with ❤️ by Pranoy#3299")
+

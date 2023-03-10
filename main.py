@@ -13,4 +13,6 @@ for fn in listdir("plugins"):
         client.plugins.load(f'plugins.{fn}.plugin')
 
 if __name__ == "__main__":
-    bot.run()
+    bot.run(
+        port=3000
+    )
